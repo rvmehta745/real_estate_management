@@ -17,8 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::prefix('admin',function(){
-    Route::get('/admin/dashboard', function () {
+Route::prefix('admin')->group(function(){
+    Route::get('/dashboard', function () {
         return view('admin.dashboard');
     });
 });
