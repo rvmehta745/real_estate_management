@@ -52,9 +52,9 @@
 	</head>
 	<body>
         @include('admin.shared.loader')
-        @include('admin.layouts.header')
-        @include('admin.layouts.right-sidebar')
-        @include('admin.layouts.left-sidebar')
+        @include('admin.shared.header')
+        @include('admin.shared.right-sidebar')
+        @include('admin.shared.left-sidebar')
         <div class="mobile-menu-overlay"></div>
 
 		<div class="main-container">
@@ -201,7 +201,7 @@
 								<ul>
 									<li class="d-flex flex-wrap align-items-center">
 										<div class="icon">
-											<img src="vendors/images/chrome.png" alt="" />
+											<img src="{{ asset('images/chrome.png') }}" alt="" />
 										</div>
 										<div class="browser-name">Google Chrome</div>
 										<div class="visit">
@@ -272,7 +272,7 @@
 						</div>
 					</div>
 				</div>
-				@include('admin.layouts.footer')
+				@include('admin.shared.footer')
 			</div>
 		</div>
 		<!-- welcome modal start -->
