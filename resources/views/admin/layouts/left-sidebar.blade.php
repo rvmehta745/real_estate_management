@@ -1,9 +1,9 @@
 <div class="left-side-bar">
 			<div class="brand-logo">
 				<a href="index.html">
-					<img src="vendors/images/deskapp-logo.svg" alt="" class="dark-logo" />
+					<img src="{{ asset('images/deskapp-logo.svg') }}" alt="" class="dark-logo" />
 					<img
-						src="vendors/images/deskapp-logo-white.svg"
+						src="{{ asset('images/deskapp-logo-white.svg') }}"
 						alt=""
 						class="light-logo"
 					/>
@@ -21,9 +21,7 @@
 								><span class="mtext">Home</span>
 							</a>
 							<ul class="submenu">
-								<li><a href="index.html">Dashboard style 1</a></li>
-								<li><a href="index2.html">Dashboard style 2</a></li>
-								<li><a href="index3.html">Dashboard style 3</a></li>
+								<li><a href="index2.html">Dashboard</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
@@ -224,7 +222,7 @@
 								<span class="micon bi bi-layout-text-window-reverse"></span>
 								<span class="mtext"
 									>Landing Page
-									<img src="vendors/images/coming-soon.png" alt="" width="25"
+									<img src="{{ asset('images/coming-soon.png') }}" alt="" width="25"
 								/></span>
 							</a>
 						</li>

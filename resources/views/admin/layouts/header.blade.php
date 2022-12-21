@@ -92,64 +92,32 @@
 								<ul>
 									<li>
 										<a href="#">
-											<img src="vendors/images/img.jpg" alt="" />
-											<h3>John Doe</h3>
+											<img src="{{ asset('images/img.jpg') }}" alt="" />
+											<h3>Ritesh Patel</h3>
 											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit, sed...
+												Developer
 											</p>
 										</a>
 									</li>
 									<li>
 										<a href="#">
-											<img src="vendors/images/photo1.jpg" alt="" />
-											<h3>Lea R. Frith</h3>
+											<img src="{{ asset('images/photo1.jpg') }}" alt="" />
+											<h3>Kush Upadhyay</h3>
 											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit, sed...
+												Designeer
 											</p>
 										</a>
 									</li>
 									<li>
 										<a href="#">
-											<img src="vendors/images/photo2.jpg" alt="" />
-											<h3>Erik L. Richards</h3>
+											<img src="{{ asset('images/photo2.jpg') }}" alt="" />
+											<h3>Samay Shah</h3>
 											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit, sed...
+												Suppoter
 											</p>
 										</a>
 									</li>
-									<li>
-										<a href="#">
-											<img src="vendors/images/photo3.jpg" alt="" />
-											<h3>John Doe</h3>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit, sed...
-											</p>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<img src="vendors/images/photo4.jpg" alt="" />
-											<h3>Renee I. Hansen</h3>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit, sed...
-											</p>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<img src="vendors/images/img.jpg" alt="" />
-											<h3>Vicki M. Coleman</h3>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit, sed...
-											</p>
-										</a>
-									</li>
+
 								</ul>
 							</div>
 						</div>
@@ -164,9 +132,9 @@
 							data-toggle="dropdown"
 						>
 							<span class="user-icon">
-								<img src="vendors/images/photo1.jpg" alt="" />
+								<img src="{{ asset('images/photo1.jpg') }}" alt="" />
 							</span>
-							<span class="user-name">Ross C. Lopez</span>
+							<span class="user-name">Ritesh Patel</span>
 						</a>
 						<div
 							class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list"
@@ -188,7 +156,7 @@
 				</div>
 				<div class="github-link">
 					<a href="https://github.com/dropways/deskapp" target="_blank"
-						><img src="vendors/images/github.svg" alt=""
+						><img src="{{ asset('images/github.svg') }}" alt=""
 					/></a>
 				</div>
 			</div>

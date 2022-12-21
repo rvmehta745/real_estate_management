@@ -1,5 +1,5 @@
 <div class="footer-wrap pd-20 mb-20 card-box">
-					DeskApp - Bootstrap 4 Admin Template By
+					Property Dealer
 					<a href="https://github.com/dropways" target="_blank"
 						>Ritesh Patel</a
 					>
