@@ -44,6 +44,7 @@
 		/>
 		<link rel="stylesheet" type="text/css" href="{{ asset('styles/style.css') }}" />
 	</head>
+    @include('admin.shared.loader')
     <body class="login-page">
         <div class="login-header box-shadow">
             <div
