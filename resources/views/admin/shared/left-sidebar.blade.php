@@ -1,6 +1,6 @@
 <div class="left-side-bar">
 			<div class="brand-logo">
-				<a href="index.html">
+				<a href="#">
 					<img src="{{ asset('images/deskapp-logo.svg') }}" alt="" class="dark-logo" />
 					<img
 						src="{{ asset('images/deskapp-logo-white.svg') }}"
@@ -21,7 +21,7 @@
 								><span class="mtext">Home</span>
 							</a>
 							<ul class="submenu">
-								<li><a href="index2.html">Dashboard</a></li>
+								<li><a href="{{ route('dashboard') }}">Dashboard</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
@@ -110,13 +110,12 @@
 						<li class="dropdown">
 							<a href="javascript:;" class="dropdown-toggle">
 								<span class="micon bi bi-file-earmark-text"></span
-								><span class="mtext">Additional Pages</span>
+								><span class="mtext">Login Pages</span>
 							</a>
 							<ul class="submenu">
-								<li><a href="video-player.html">Video Player</a></li>
-								<li><a href="login.html">Login</a></li>
-								<li><a href="forgot-password.html">Forgot Password</a></li>
-								<li><a href="reset-password.html">Reset Password</a></li>
+								<li><a href="{{ route('login') }}">Login</a></li>
+								<li><a href="{{ route('forgot-password') }}">Forgot Password</a></li>
+								<li><a href="{{ route('reset-password') }}">Reset Password</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">

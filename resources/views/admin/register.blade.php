@@ -56,13 +56,13 @@
 				class="container-fluid d-flex justify-content-between align-items-center"
 			>
 				<div class="brand-logo">
-					<a href="login.html">
+					<a href="#">
 						<img src="{{ asset('images/deskapp-logo.svg') }}" alt="" />
 					</a>
 				</div>
 				<div class="login-menu">
 					<ul>
-						<li><a href="login.html">Login</a></li>
+						<li><a href="{{ route('login') }}">Login</a></li>
 					</ul>
 				</div>
 			</div>
@@ -82,18 +82,24 @@
 									<h5>Basic Account Credentials</h5>
 									<section>
 										<div class="form-wrap max-width-600 mx-auto">
+                                            <div class="form-group row">
+												<label class="col-sm-4 col-form-label">First Name*</label>
+												<div class="col-sm-8">
+													<input type="text" class="form-control" />
+												</div>
+											</div>
+                                            <div class="form-group row">
+												<label class="col-sm-4 col-form-label">Last Name*</label>
+												<div class="col-sm-8">
+													<input type="text" class="form-control" />
+												</div>
+											</div>
 											<div class="form-group row">
 												<label class="col-sm-4 col-form-label"
 													>Email Address*</label
 												>
 												<div class="col-sm-8">
 													<input type="email" class="form-control" />
-												</div>
-											</div>
-											<div class="form-group row">
-												<label class="col-sm-4 col-form-label">Username*</label>
-												<div class="col-sm-8">
-													<input type="text" class="form-control" />
 												</div>
 											</div>
 											<div class="form-group row">
@@ -112,68 +118,17 @@
 											</div>
 										</div>
 									</section>
-									<!-- Step 2 -->
-									<h5>Personal Information</h5>
-									<section>
-										<div class="form-wrap max-width-600 mx-auto">
-											<div class="form-group row">
-												<label class="col-sm-4 col-form-label"
-													>Full Name*</label
-												>
-												<div class="col-sm-8">
-													<input type="text" class="form-control" />
-												</div>
-											</div>
-											<div class="form-group row align-items-center">
-												<label class="col-sm-4 col-form-label">Gender*</label>
-												<div class="col-sm-8">
-													<div
-														class="custom-control custom-radio custom-control-inline pb-0"
-													>
-														<input
-															type="radio"
-															id="male"
-															name="gender"
-															class="custom-control-input"
-														/>
-														<label class="custom-control-label" for="male"
-															>Male</label
-														>
-													</div>
-													<div
-														class="custom-control custom-radio custom-control-inline pb-0"
-													>
-														<input
-															type="radio"
-															id="female"
-															name="gender"
-															class="custom-control-input"
-														/>
-														<label class="custom-control-label" for="female"
-															>Female</label
-														>
-													</div>
-												</div>
-											</div>
-											<div class="form-group row">
-												<label class="col-sm-4 col-form-label">City</label>
-												<div class="col-sm-8">
-													<input type="text" class="form-control" />
-												</div>
-											</div>
-											<div class="form-group row">
-												<label class="col-sm-4 col-form-label">State</label>
-												<div class="col-sm-8">
-													<input type="text" class="form-control" />
-												</div>
-											</div>
-										</div>
-									</section>
 									<!-- Step 4 -->
 									<h5>Overview Information</h5>
 									<section>
 										<div class="form-wrap max-width-600 mx-auto">
 											<ul class="register-info">
+                                                <li>
+													<div class="row">
+														<div class="col-sm-4 weight-600">Full Name</div>
+														<div class="col-sm-8">john smith</div>
+													</div>
+												</li>
 												<li>
 													<div class="row">
 														<div class="col-sm-4 weight-600">Email Address</div>
@@ -182,20 +137,8 @@
 												</li>
 												<li>
 													<div class="row">
-														<div class="col-sm-4 weight-600">Username</div>
-														<div class="col-sm-8">Example</div>
-													</div>
-												</li>
-												<li>
-													<div class="row">
 														<div class="col-sm-4 weight-600">Password</div>
 														<div class="col-sm-8">.....000</div>
-													</div>
-												</li>
-												<li>
-													<div class="row">
-														<div class="col-sm-4 weight-600">Full Name</div>
-														<div class="col-sm-8">john smith</div>
 													</div>
 												</li>
 												<li>
@@ -258,7 +201,7 @@
 						eiusmod
 					</div>
 					<div class="modal-footer justify-content-center">
-						<a href="login.html" class="btn btn-primary">Done</a>
+						<a href="{{ route('login') }}" class="btn btn-primary">Done</a>
 					</div>
 				</div>
 			</div>

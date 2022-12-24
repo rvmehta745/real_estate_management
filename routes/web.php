@@ -20,11 +20,17 @@ Route::get('/', function () {
 Route::prefix('admin')->group(function(){
     Route::get('/dashboard', function () {
         return view('admin.dashboard');
-    });
+    })->name('dashboard');
     Route::get('/login',function(){
         return view('admin.login');
-    });
+    })->name('login');
     Route::get('/register',function(){
         return view('admin.register');
-    });
+    })->name('register');
+    Route::get('/forgot-password',function(){
+        return view('admin.forgot-password');
+    })->name('forgot-password');
+    Route::get('/reset-password',function(){
+        return view('admin.reset-password');
+    })->name('reset-password');
 });

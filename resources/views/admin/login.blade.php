@@ -50,13 +50,13 @@
                 class="container-fluid d-flex justify-content-between align-items-center"
             >
                 <div class="brand-logo">
-                    <a href="login.html">
+                    <a href="#">
                         <img src="{{ asset('images/deskapp-logo.svg') }}" alt="" />
                     </a>
                 </div>
                 <div class="login-menu">
                     <ul>
-                        <li><a href="register.html">Register</a></li>
+                        <li><a href="{{ route('register') }}">Register</a></li>
                     </ul>
                 </div>
             </div>
@@ -114,7 +114,7 @@
                                     </div>
                                     <div class="col-6">
                                         <div class="forgot-password">
-                                            <a href="forgot-password.html">Forgot Password</a>
+                                            <a href="{{ route('forgot-password') }}">Forgot Password</a>
                                         </div>
                                     </div>
                                 </div>
@@ -127,7 +127,7 @@
                                         -->
                                             <a
                                                 class="btn btn-primary btn-lg btn-block"
-                                                href="index.html"
+                                                href="{{ route('dashboard') }}"
                                                 >Sign In</a
                                             >
                                         </div>
@@ -140,7 +140,7 @@
                                         <div class="input-group mb-0">
                                             <a
                                                 class="btn btn-outline-primary btn-lg btn-block"
-                                                href="register.html"
+                                                href="{{ route('register') }}"
                                                 >Register To Create Account</a
                                             >
                                         </div>
