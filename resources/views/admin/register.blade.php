@@ -125,26 +125,26 @@
 											<ul class="register-info">
                                                 <li>
 													<div class="row">
-														<div class="col-sm-4 weight-600">Full Name</div>
-														<div class="col-sm-8">john smith</div>
+														<div class="col-sm-4 weight-600">First Name</div>
+														<div class="col-sm-8">Ritesh</div>
+													</div>
+												</li>
+                                                <li>
+													<div class="row">
+														<div class="col-sm-4 weight-600">Last Name</div>
+														<div class="col-sm-8">Patel</div>
 													</div>
 												</li>
 												<li>
 													<div class="row">
 														<div class="col-sm-4 weight-600">Email Address</div>
-														<div class="col-sm-8">example@abc.com</div>
+														<div class="col-sm-8">ritesh@yopmail.com</div>
 													</div>
 												</li>
 												<li>
 													<div class="row">
 														<div class="col-sm-4 weight-600">Password</div>
 														<div class="col-sm-8">.....000</div>
-													</div>
-												</li>
-												<li>
-													<div class="row">
-														<div class="col-sm-4 weight-600">Location</div>
-														<div class="col-sm-8">123 Example</div>
 													</div>
 												</li>
 											</ul>
