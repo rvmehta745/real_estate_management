@@ -3,7 +3,7 @@
 	<head>
 		<!-- Basic Page Info -->
 		<meta charset="utf-8" />
-		<title>Reset Password</title>
+		<title>Real Estate</title>
 
 		<!-- Site favicon -->
 		<link

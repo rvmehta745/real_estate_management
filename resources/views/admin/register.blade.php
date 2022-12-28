@@ -3,7 +3,7 @@
 	<head>
 		<!-- Basic Page Info -->
 		<meta charset="utf-8" />
-		<title>Register</title>
+		<title>Real Estate</title>
 
 		<!-- Site favicon -->
 		<link
