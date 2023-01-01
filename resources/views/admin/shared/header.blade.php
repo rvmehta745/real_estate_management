@@ -92,7 +92,7 @@
 								<ul>
 									<li>
 										<a href="#">
-											<img src="{{ asset('images/img.jpg') }}" alt="" />
+											<img src="{{ asset('images/developer.jpg') }}" alt="" />
 											<h3>Ritesh Patel</h3>
 											<p>
 												Developer
@@ -132,7 +132,7 @@
 							data-toggle="dropdown"
 						>
 							<span class="user-icon">
-								<img src="{{ asset('images/photo1.jpg') }}" alt="" />
+								<img src="{{ asset('images/developer.jpg') }}" alt="" />
 							</span>
 							<span class="user-name">Ritesh Patel</span>
 						</a>
