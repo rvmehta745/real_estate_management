@@ -43,6 +43,10 @@ Route::prefix('admin')->group(function(){
         return view('admin.datatable');
     })->name('datatable');
 
+    Route::get('/edit-table',function(){
+        return view('admin.edit');
+    })->name('edit-table');
+
 });
 
 Route::resource('users',App\Http\Controllers\UserController::class);

@@ -55,7 +55,6 @@
 		<link rel="stylesheet" type="text/css" href="{{ asset('styles/style.css') }}" />
 	</head>
 	<body>
-        @include('admin.shared.loader')
         @include('admin.shared.header')
         @include('admin.shared.right-sidebar')
         @include('admin.shared.left-sidebar')
@@ -139,7 +138,7 @@
 													<a class="dropdown-item" href="#"
 														><i class="dw dw-eye"></i> View</a
 													>
-													<a class="dropdown-item" href="#"
+													<a class="dropdown-item" href="{{ route('edit-table') }}"
 														><i class="dw dw-edit2"></i> Edit</a
 													>
 													<a class="dropdown-item" href="#"
@@ -183,9 +182,10 @@
 								<tbody>
 									<tr>
 										<td></td>
-										<td>Tiger Nixon</td>
+										<td>1</td>
 										<td>System Architect</td>
-										<td>Tokyo@yopmail.com</td>
+										<td>Toky</td>
+                                        <td>Toky@yopmail.com</td>
 									</tr>
 								</tbody>
 							</table>
