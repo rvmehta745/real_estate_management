@@ -30,7 +30,7 @@
 								><span class="mtext">Tables</span>
 							</a>
 							<ul class="submenu">
-								<li><a href="{{ route('datatable') }}">DataTables</a></li>
+								<li><a href="{{ route('users.index') }}">Users</a></li>
 							</ul>
 						</li>
 						<li>
