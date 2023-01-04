@@ -99,11 +99,19 @@
                             </div>
                         </div>
                     </div>
-
-					<!-- Simple Datatable start -->
+                    <!-- Simple Datatable start -->
 					<div class="card-box mb-30">
 						<div class="pd-20">
-							<h4 class="text-blue h4">User Table Simple</h4>
+							<h4 class="text-blue h4">Data Table Simple</h4>
+							<p class="mb-0">
+								you can find more options
+								<a
+									class="text-primary"
+									href="https://datatables.net/"
+									target="_blank"
+									>Click Here</a
+								>
+							</p>
 						</div>
 						<div class="pb-20">
 							<table class="data-table table stripe hover nowrap">
@@ -119,9 +127,9 @@
 								<tbody>
 									<tr>
 										<td class="table-plus">1</td>
-										<td>Gloria</td>
-                                        <td>Taddy</td>
-										<td>gloria@yopmail.com</td>
+										<td>Samil</td>
+										<td>Ravel</td>
+										<td>samir@yopmail.com</td>
 										<td>
 											<div class="dropdown">
 												<a
@@ -152,31 +160,29 @@
 							</table>
 						</div>
 					</div>
-					<!-- Simple Datatable End -->
                     <!-- Export Datatable start -->
 					<div class="card-box mb-30">
 						<div class="pd-20">
-							<h4 class="text-blue h4">User Table with Export Buttons</h4>
+							<h4 class="text-blue h4">Data Table with Export Buttons</h4>
 						</div>
 						<div class="pb-20">
-							<table
-								class="table hover multiple-select-row data-table-export nowrap"
-							>
+							<table class="table hover multiple-select-row data-table-export nowrap">
 								<thead>
 									<tr>
-										<th class="table-plus datatable-nosort">No</th>
-										<th>First Name</th>
-										<th>Last Name</th>
-										<th>Email Id</th>
-										<th class="datatable-nosort">Action</th>
+										<th class="table-plus datatable-nosort">Number</th>
+										<th>first name</th>
+										<th>last name</th>
+										<th>email</th>
+										<th>action</th>
+
 									</tr>
 								</thead>
 								<tbody>
-									<tr>
+
 										<td class="table-plus">1</td>
-										<td>Goloria</td>
-										<td>Sagittarius</td>
-										<td>gs@yopmail.com</td>
+										<td>mahipal</td>
+										<td>patel</td>
+										<td>mahi@gmail.com</td>
 										<td>
 											<div class="dropdown">
 												<a
@@ -193,7 +199,7 @@
 													<a class="dropdown-item" href="#"
 														><i class="dw dw-eye"></i> View</a
 													>
-													<a class="dropdown-item" href="{{ route('users.edit') }}"
+													<a class="dropdown-item" href="#"
 														><i class="dw dw-edit2"></i> Edit</a
 													>
 													<a class="dropdown-item" href="#"

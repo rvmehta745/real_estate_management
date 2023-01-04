@@ -75,7 +75,7 @@
 		</div>
 	</div>
     <div class="form-group row">
-        <button type="button" class="btn btn-primary"><a href='{{ route('datatable') }}'>Submit</a></button>
+        <button type="button" class="btn btn-primary"><a href='{{ route('users.index') }}'>Submit</a></button>
     </div>
 </form>
 		</div>
