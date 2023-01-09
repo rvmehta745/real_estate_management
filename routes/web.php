@@ -27,10 +27,6 @@ Route::prefix('admin')->group(function(){
         return view('admin.login');
     })->name('login');
 
-    Route::get('/register',function(){
-        return view('admin.register');
-    })->name('register');
-
     Route::get('/forgot-password',function(){
         return view('admin.forgot-password');
     })->name('forgot-password');

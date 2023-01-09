@@ -95,7 +95,7 @@
 										-->
 											<a
 												class="btn btn-primary btn-lg btn-block"
-												href="index.html"
+												href="#"
 												>Submit</a
 											>
 										</div>

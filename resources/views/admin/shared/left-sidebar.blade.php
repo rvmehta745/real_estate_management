@@ -17,15 +17,6 @@
 					<ul id="accordion-menu">
 						<li class="dropdown">
 							<a href="javascript:;" class="dropdown-toggle">
-								<span class="micon bi bi-house"></span
-								><span class="mtext">Home</span>
-							</a>
-							<ul class="submenu">
-								<li><a href="{{ route('dashboard') }}">Dashboard</a></li>
-							</ul>
-						</li>
-						<li class="dropdown">
-							<a href="javascript:;" class="dropdown-toggle">
 								<span class="micon bi bi-table"></span
 								><span class="mtext">Tables</span>
 							</a>
