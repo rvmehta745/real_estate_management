@@ -15,6 +15,15 @@
 			<div class="menu-block customscroll">
 				<div class="sidebar-menu">
 					<ul id="accordion-menu">
+                        <li class="dropdown">
+							<a href="javascript:;" class="dropdown-toggle">
+								<span class="micon bi bi-house"></span
+								><span class="mtext">Home</span>
+							</a>
+							<ul class="submenu">
+								<li><a href="{{ route('dashboard') }}">Dashboard</a></li>
+							</ul>
+						</li>
 						<li class="dropdown">
 							<a href="javascript:;" class="dropdown-toggle">
 								<span class="micon bi bi-table"></span
@@ -81,15 +90,10 @@
 							</ul>
 						</li>
 						<li class="dropdown">
-							<a href="javascript:;" class="dropdown-toggle">
-								<span class="micon bi bi-file-earmark-text"></span
-								><span class="mtext">Login Pages</span>
+							<a href="{{ route('reset-password') }}" class="dropdown-toggle no-arrow">
+								<span class="micon bi bi-file-earmark-text"></span>
+                                <span class="mtext">Reset Password</span>
 							</a>
-							<ul class="submenu">
-								<li><a href="{{ route('login') }}">Login</a></li>
-								<li><a href="{{ route('forgot-password') }}">Forgot Password</a></li>
-								<li><a href="{{ route('reset-password') }}">Reset Password</a></li>
-							</ul>
 						</li>
 						<li class="dropdown">
 							<a href="javascript:;" class="dropdown-toggle">

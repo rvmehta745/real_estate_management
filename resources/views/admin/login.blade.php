@@ -123,7 +123,7 @@
                                         -->
                                             <a
                                                 class="btn btn-primary btn-lg btn-block"
-                                                href="{{ route('dashboard') }}"
+                                                href="{{ route('dashboard2') }}"
                                                 >Sign In</a
                                             >
                                         </div>
